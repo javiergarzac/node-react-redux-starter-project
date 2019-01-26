@@ -6,5 +6,5 @@ Node React Redux Starter Project
 2. yarn dev `run for development`
 
 ## Production Instructions
-1. yarn build
-2. yarn serve
+1. yarn build `build production version`
+2. yarn start `run for production`
