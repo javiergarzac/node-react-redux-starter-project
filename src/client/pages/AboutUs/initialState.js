@@ -1,3 +1,3 @@
 export const AboutUsInitialState = {
-    title: 'Hello from component About Us'
+    title: 'Hello from About Us reducer'
 };

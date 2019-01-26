@@ -1,3 +1,3 @@
 export const HomeInitialState = {
-    title: 'Hello from component Reducer'
+    title: 'Hello from Home reducer'
 };

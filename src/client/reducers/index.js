@@ -1,11 +1,16 @@
 import { combineReducers } from 'redux';
-import AppConfig from './AppConfig';
 
-const createReducer = asyncReducers =>
-    combineReducers({
+const AppConfig = () => {
+    return {
+        // Any initial base app configuration
+    }
+};
+
+const createReducer = asyncReducers => {
+    return combineReducers({
         AppConfig,
         ...asyncReducers
-    }
-);
+    })
+};
 
 export default createReducer;
